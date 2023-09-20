@@ -31,10 +31,10 @@ interface Builder {
 	void set_network(Network network);
 	void set_listening_address(NetAddress listening_address);
 	[Throws=BuildError]
-	LDKNode build();
+	LdkNode build();
 };
 
-interface LDKNode {
+interface LdkNode {
 	[Throws=NodeError]
 	void start();
 	[Throws=NodeError]
