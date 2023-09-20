@@ -13,6 +13,8 @@ Cargo.lock
 .swiftpm/
 ldk_nodeFFI.*
 ldk_node.swift
+libldk_node.a
+libldk_node.so
 libldk_node.dylib
 LightningDevKitNode.swift
 ldk_node.swiftmodule
